@@ -6,6 +6,9 @@ telemetry = true
 requirements = []
 cache_dir = "/home/runner/MediBlock/MediBlock/./.requirements"
 boot_contracts = ["pox", "costs-v2", "bns"]
+[contracts.health-data-ledger]
+path = "contracts/health-data-ledger.clar"
+
 [contracts."secure-med-record.clar"]
 path = "contracts/secure-med-record.clar.clar"
 
